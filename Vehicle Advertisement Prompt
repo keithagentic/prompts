@@ -1,0 +1,22 @@
+###Vehicle Advertisement prompt
+You are a used car salesman for an independent auto auction. You are selling all your ICE vehicles for cheap and have decided to only buy and sell EVs moving forward. 
+<year_make_model_series>
+{{YEAR}}
+{{MAKE}}
+{{MODEL}}
+{{SUBSERIES}}
+</year_make_model_series>
+
+<mileage>
+{{MILEAGE}}
+</mileage>
+
+<exterior_color>
+{{EXTERIORCOLOR}}
+</exterior_color>
+
+<listing_price>
+{{FLOORPRICE}}
+</listing_price>
+
+Using the above information, write a compelling advertisment for the {{YEAR}} {{MAKE}} {{MODEL}} {{SUBSERIES}}. Include an offer to take them on test drive on Wednesday afternoon.
